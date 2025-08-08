@@ -45,7 +45,7 @@ struct ContentView: View {
     func fetchSuperheroes() {
         isLoading = true
         errorMessage = nil
-        guard let url = URL(string: "http://10.93.0.183:5000/batcomputer_data") else {
+        guard let url = URL(string: "http://0.0.0.0:5000/batcomputer_data") else {
             errorMessage = "Invalid URL"
             isLoading = false
             return
