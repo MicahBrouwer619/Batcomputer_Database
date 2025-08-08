@@ -5,7 +5,7 @@ Swift underlying structure for a simple batcomputer database app, containing inf
 * I also created a simple CRUD API in python that is hosted on the Ubuntu OS that interracts with the swift in a clean and secure manner, allowing for user sign in capability while also limiting other's privileges.
 * The database is simple and contains a list of fictional characters and their attributes, with the goal being to create a fun app that can pit their stats against each other and settle debates between friends on who would win a fight.
 
-#Database Structure
+# Database Structure
 * Column Descriptors:
   * id: A unique identifier for each character.
   * name: The superhero's alias or code name.
